@@ -38,7 +38,7 @@ steps:
         "run",
         "services",
         "update-traffic",
-        "latency-container-workshop", # We are naming the cloudrun service the same as our project id
+        "dev1-249203", # We are naming the cloudrun service the same as our project id
         "--to-revisions=LATEST=50",
         "--region",
         "australia-southeast1",
