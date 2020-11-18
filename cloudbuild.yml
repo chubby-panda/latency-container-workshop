@@ -27,7 +27,7 @@ steps:
         "gcr.io/dev1-249203/my_app:latest",
         "--no-traffic",
         "--region",
-        "australia-southeast1",
+        "us-central1",
         "--platform",
         "managed",
       ]
@@ -41,7 +41,7 @@ steps:
         "dev1-249203", # We are naming the cloudrun service the same as our project id
         "--to-revisions=LATEST=50",
         "--region",
-        "australia-southeast1",
+        "us-central1",
         "--platform",
         "managed",
       ]
